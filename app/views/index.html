@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="adventureEditor">
+
+<head>
+	<title>Adventure Editor</title>
+	<!-- Import CSS libraries -->
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+
+	<!-- Import Javascript Libraries -->
+	<!-- Import angular js -->
+	<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+	<!-- Import Js dont a besoin bootstrap pour fonctionner -->
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Nos scripts javascripts -->
+	<script type="text/javascript" src="../js/app.js"></script>
+
+	<!-- Nos styles CSS -->
+	<link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+	<div ui-view></div>
+	<a ui-sref="home">Home</a>
+</body>
+
+</html>
